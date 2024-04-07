@@ -1,0 +1,70 @@
+html{
+    background-color: rgb(249, 214, 220);
+    font-style: oblique;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+    width: auto;
+}
+
+.navigation{
+    background-color: white;
+    color: rgb(250, 80, 108);
+    float: left;
+    width: 20%;
+    padding: 20px;
+    list-style-type: none;
+}
+
+navigation :link{
+    color: blue;
+}
+
+navigation :hover{
+    color: darkred;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 7fr 0fr;
+    color: rgb(250, 80, 108);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    height: 280px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  .footer-index{
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(42, 15, 249);
+    height: 300px;
+    list-style: none;
+}
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+

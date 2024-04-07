@@ -1,7 +1,138 @@
+html{
+    background-color: rgb(249, 214, 220);
+    font-style: oblique;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+    width: auto;
+}
+
 .header{
-    background-color: peachpuff;
     color: rgb(250, 80, 108);
     text-align: center;
     padding-inline: 10px;
-    font-style: "" , "" , "" ,;
+    font-size: 32px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.navigation{
+    background-color: white;
+    color: rgb(250, 80, 108);
+    padding-inline: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 36px;
+    list-style: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+navigation :link{
+    color: blue;
+}
+
+navigation :hover{
+    color: darkred;
+}
+
+.title-banner{
+    display: grid;
+    grid-template-columns: 7fr 0fr;
+    color: rgb(250, 80, 108);
+    text-align: center;
+    padding-inline: 10px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.content{
+    padding: 60px;
+    margin: auto;
+}
+
+.skills{
+    background-color: white;
+    text-align: justify;
+    padding-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px; 
+}
+
+#skillss{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-shadow: 2px 2px 5px rgb(250, 80, 108);
+}
+
+.education{
+    text-align: justify;
+    padding-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#educations{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-shadow: 2px 2px 5px rgb(250, 80, 108);
+}
+
+.work{
+    background-color: white;
+    text-align: justify;
+    padding-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;  
+}
+
+#works{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-shadow: 2px 2px 5px rgb(250, 80, 108);
+}
+
+.volunteer{
+    text-align: justify;
+    padding-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#volunteer{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-shadow: 2px 2px 5px rgb(250, 80, 108); 
+}
+
+.footer-index{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 36px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 36px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+}
+
+footer :hover{
+    color: darkred;
 }
