@@ -39,14 +39,21 @@ article {
     width: 50%;
     height: 280px;
     background-color: #f1f1f1;
-  }
-  
-  /* Clear floats after the columns */
-  section::after {
+}
+
+section::after{
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+  
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
   
   /* Style the footer */
   .footer-index{
@@ -58,6 +65,10 @@ article {
     color: rgb(42, 15, 249);
     height: 300px;
     list-style: none;
+}
+
+.footer-index :hover{
+    color: darkred;
 }
   
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
